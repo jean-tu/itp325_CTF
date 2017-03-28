@@ -2,3 +2,4 @@ this is just testing which Github account i'm in
 How about now?
 and now?! ?!!?!
 .....
+Please work used https://help.github.com/articles/setting-your-email-in-git/ to help 
