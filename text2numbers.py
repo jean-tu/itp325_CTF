@@ -1,3 +1,4 @@
+#Problem: https://jacobedelman.gitbooks.io/hsctf-3-practice-problems/content/text2numbers-problem.html
 
 numberList = [23, 5, 12, 12, 27, 20, 8, 5, 27, 6, 12, 1, 7, 27, 9, 19, 27, 8, 9, 4, 4, 5, 14, 27,
               8, 5, 18, 5, 27, 2, 21, 20, 27, 6, 9, 18, 19, 20, 27, 23, 5, 27, 8, 1, 22, 5, 27, 19,
@@ -12,5 +13,10 @@ numberList = [23, 5, 12, 12, 27, 20, 8, 5, 27, 6, 12, 1, 7, 27, 9, 19, 27, 8, 9,
 #chr(num) = ASCII --> letter
 
 for i in numberList:
-    print(chr(i+96), end="")
+    if (i == 27):
+        print(" ", end="")
+    elif(i == 28):
+        print("_", end="")
+    else:
+        print(chr(i+96), end="")
 
